@@ -20,6 +20,7 @@
  * @author: Terri Burns, NYU
  */
 
+
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.io.File;
@@ -132,7 +133,7 @@ public class Manhattan extends PApplet {
 
 	/**
 	 * Called when the mouse is clicked. Prompts user to see
-	 * respective/consecutive pages.
+	 * respective/consecutive pages. Counters ensure pages appear consecutively. 
 	 */
 	public void mouseClicked() {
 		// use a counter and a while loop to limit calling ATaggedManhattan()
